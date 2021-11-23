@@ -52,5 +52,24 @@
 }
 .navbar-toggler.collapsed .toggler-icon
 {
-    background-color: black;
+    background-color: white;
+}
+nav
+{
+    background-color: #1B242F;
+}
+#section-accueil
+{
+    background-image: url("../img/background-accueil.png");
+    background-size: cover;
+    margin: 5px 0;
+}
+.btn-me-contacter-accueil 
+{
+    border: 2px solid white;
+    background-color: #252934;
+    border-radius: 25px;
+    color: white;
+    width: 200px;
+    height: 50px;
 }
