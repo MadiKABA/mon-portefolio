@@ -2,6 +2,10 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    border: 1px red solid;
+}
+body{
+    margin: 0;
 }
 .navbar-toggler:focus
 .navbar-toggler:active
@@ -95,12 +99,41 @@ h2
 }
 .card-formations
 {
-    border-top: 2px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
     border-left: solid 1px whitesmoke;
     width: 90%;
     margin: 0 10px;
-    box-shadow: -2px -2px whitesmoke;
+    box-shadow: -5px -5px whitesmoke;
     
+}
+.grille
+{
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    grid-template-columns: repeat(auto-fill,250px);
+    justify-content: center;
+    grid-gap: 30px 25px;
+    background-color: #1B242F;
+}
+.grid-item
+{
+    width: 250px;
+    height:auto;
+    color: white;
+}
+.section-formation-img--location
+{
+    width: 50px;
+}
+.section-formation-nom-ecole
+{
+    position: absolute;
+    left: 45px;
+    top: 10px;
+    padding-left: 5px;
+    font-size: 18px;
 }
 @media screen and (max-width: 450px) {
  main{
