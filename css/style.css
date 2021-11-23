@@ -1,6 +1,7 @@
-.navbar-toggler
-{
-    border: 5px solid red;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 .navbar-toggler:focus
 .navbar-toggler:active
@@ -72,4 +73,38 @@ nav
     color: white;
     width: 200px;
     height: 50px;
+}
+.bar-de-soulignement-du-titre
+{
+    background-color: black;
+    width: 120px; height: 7px;
+    margin: 0 auto;
+}
+h2
+{
+    text-align: center;
+}
+.btn-voir-mon-cv
+{
+    border: 2px solid black;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.card-formations
+{
+    border-top: 2px solid whitesmoke;
+    border-left: solid 1px whitesmoke;
+    width: 90%;
+    margin: 0 10px;
+    box-shadow: -2px -2px whitesmoke;
+    
+}
+@media screen and (max-width: 450px) {
+ main{
+     margin: 0 suto;
+ }
+   
 }
