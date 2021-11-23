@@ -154,7 +154,22 @@ h2
 {
     background-color: #F5F5F5;
 }
-
+.footer-de-contact
+{
+    background-color: #252934;
+    width: 100%;
+    height: auto;
+}
+.img-contact-footer img
+{
+    width: 80px;
+}
+.img-contact-footer p
+{
+    position: absolute;
+    left: 3rem;
+    top: 0.5rem;
+}
 
 
 @media screen and (max-width: 450px) {
