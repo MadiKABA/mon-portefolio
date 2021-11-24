@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Libre+Franklin:wght@100&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
@@ -150,8 +151,8 @@ h2
 {
     font-size: 18px;
     position: absolute;
-    left: 2.5rem;
-    top: 0.5rem;
+    left: 3.5rem;
+    top: 1.5rem;
 }
 .grille-centre-interet
 {
@@ -170,8 +171,8 @@ h2
 .img-contact-footer p
 {
     position: absolute;
-    left: 3rem;
-    top: 0.5rem;
+    left: 3.2rem;
+    top: 1.5rem;
 }
 .fa-icon-footer
 {
