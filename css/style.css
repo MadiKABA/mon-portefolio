@@ -75,8 +75,8 @@ nav
     background-color: #252934;
     border-radius: 25px;
     color: white;
-    width: 200px;
-    height: 50px;
+    width: 120px;
+    height: 35px;
 }
 .bar-de-soulignement-du-titre
 {
@@ -188,7 +188,44 @@ h2
     left: 6.5rem;
     
 }
+.menu-item 
+{
+    font-size: 24px;
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E31B6D;
+}
+.texte-descriptif-accueil
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.texte-descriptif-accueil span
+{
+    font-size: 20px;
+}
+.btn-me-contacter-accueil
+{
 
+    font-family:'Libre Franklin', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+
+
+}
 @media screen and (max-width: 450px) {
  main{
      margin: 0 suto;
