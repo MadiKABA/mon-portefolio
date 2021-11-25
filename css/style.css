@@ -3,7 +3,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: brown 1px solid;
 }
 body{
     margin: 0;
@@ -69,6 +68,7 @@ nav
     background-image: url("../img/background-accueil.png");
     background-size: cover;
     margin: 5px 0;
+
 }
 .btn-me-contacter-accueil 
 {
@@ -128,7 +128,6 @@ h5
     grid-template-columns: repeat(auto-fill,150px);
     justify-content: center;
     grid-gap: 20px 15px;
-    background-color: #1B242F;
 }
 .grid-item
 {
@@ -181,6 +180,7 @@ h5
     position: absolute;
     left: 3.2rem;
     top: 1.5rem;
+    font-size: 18px;
 }
 .fa-icon-footer
 {
@@ -191,9 +191,9 @@ h5
 .img-top
 {
     position: absolute;
-    width: 80px;
+    width: 50px;
     bottom: 3.7rem;
-    left: 6.5rem;
+    left: 6.2rem;
     
 }
 .div-test span
@@ -208,7 +208,7 @@ h5
     position: absolute;
     top: -1rem;
     right: 9.5rem;
-    font-size: 50px;
+    font-size: 35px;
 }
 .menu-item 
 {
@@ -252,10 +252,65 @@ font-size: 24px;
 line-height: 29px;
 
 }
+.mes-realisations
+{
+    background-color: #1B242F;
+}
+@media screen and (min-width: 450px) 
+{
 
-@media screen and (max-width: 450px) {
- main{
-     margin: 0 suto;
- }
-   
+ .grille
+    {
+        display: grid;
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+        grid-template-columns: repeat(auto-fill,400px);
+        justify-content: center;
+        grid-gap: 20px 15px;
+    }
+    .grid-item
+    {
+        width: 400px;
+        height:auto;
+    }
+    .img-top
+    {
+        left: 48.5%;
+       width: 60px;
+    }
+   .img-contact-footer
+   {
+       text-align: center;
+       margin-right: 25%;
+       
+   }
+   .img-contact-footer p
+    {
+        position: absolute;
+        left: 30rem;
+        top: 1.5rem;
+        font-size: 18px;
+    }
+   .message-de-contact-footer
+   {
+        text-align: center;
+        margin: 0 30%;
+   }
+   .div-test
+   {
+       margin-right: 25%;
+   }
+   #section-accueil
+   {
+       height: 500px;
+   }
+   .description-de-la-section-accueil 
+   {
+       padding-top: 150px;
+   }
+   .description-de-la-section-accueil p
+   {
+       font-size: 40px;
+   }
 }
