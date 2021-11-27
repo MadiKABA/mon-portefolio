@@ -313,4 +313,130 @@ line-height: 29px;
    {
        font-size: 40px;
    }
+   .progrejava span
+    {
+        margin-left: 30px;
+    }
+   .progres span
+   {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        transform: translate(-50%,-50%);
+        font-size: 1.5em;
+        font-weight: 400;
+        
+    }
+}
+
+/*progress circle*/
+svg
+{
+    height: 200px;
+    width: 200px ;
+}
+svg circle
+{
+    fill: none;
+    stroke: #E31B6D;
+    stroke-width: 15px;
+    transform: translate(15px,15px);
+    stroke-linecap: round;
+    stroke-dasharray: 410;
+    stroke-dashoffset: 440;
+
+}
+svg circle:nth-child(1)
+{
+    stroke: #E31B6D;
+    opacity: 0.2;
+    stroke-dashoffset: 0;
+}
+svg .html75:nth-child(2)
+{
+    
+    animation: circle 2s forwards;
+    animation-name: html75;
+}
+svg .css70:nth-child(2)
+{
+    
+    animation: circle 2s forwards;
+    animation-name: css70;
+}
+svg .js55:nth-child(2)
+{
+    
+    animation: circle 2s forwards;
+    animation-name: js55;
+}
+svg .php70:nth-child(2)
+{
+    
+    animation: circle 2s forwards;
+    animation-name: php70;
+}
+svg .asp60:nth-child(2)
+{
+    
+    animation: circle 2s forwards;
+    animation-name: asp60;
+}
+svg .java60:nth-child(2)
+{
+    
+    animation: circle 2s forwards;
+    animation-name: java60;
+}
+.progres span{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5em;
+    font-weight: 400;
+    
+}
+
+@keyframes html75
+{
+    from {top: 0;}
+    to{
+        stroke-dashoffset: 120;
+    }
+}
+@keyframes css70
+{
+    from {top: 0;}
+    to{
+        stroke-dashoffset: 160;
+    }
+}
+@keyframes js55
+{
+    from {top: 0;}
+    to{
+        stroke-dashoffset: 200;
+    }
+}
+@keyframes php70
+{
+    from {top: 0;}
+    to{
+        stroke-dashoffset: 160;
+    }
+}
+@keyframes asp60
+{
+    from {top: 0;}
+    to{
+        stroke-dashoffset: 180;
+    }
+}
+@keyframes java60
+{
+    from {top: 0;}
+    to{
+        stroke-dashoffset: 180;
+    }
 }
