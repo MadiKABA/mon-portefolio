@@ -293,9 +293,14 @@ line-height: 29px;
         width: 100%;
         height: auto;
         margin: 30px auto;
-        grid-template-columns: repeat(auto-fill,400px);
+        grid-template-columns: repeat(auto-fill,500px);
         justify-content: center;
         grid-gap: 20px 15px;
+    }
+    .grid-item
+    {
+        width: 400px;
+        height:auto;
     }
     .paragraphe-section-a-propos-mon-profil
     {
@@ -312,11 +317,7 @@ line-height: 29px;
     {
         font-size: 36px;
     }
-    .grid-item
-    {
-        width: 400px;
-        height:auto;
-    }
+   
     .img-top
     {
         left: 48.5%;
