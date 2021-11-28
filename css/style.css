@@ -317,7 +317,17 @@ line-height: 29px;
     {
         font-size: 36px;
     }
-   
+    .grille-centre-interet
+    {
+        background-color: #F5F5F5;
+        display: grid;
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+        grid-template-columns: repeat(auto-fill,400px);
+        justify-content: center;
+        grid-gap: 20px 15px;
+    }
     .img-top
     {
         left: 48.5%;
@@ -357,18 +367,15 @@ line-height: 29px;
    {
        font-size: 40px;
    }
-   .progrejava span
-    {
-        margin-left: 30px;
-    }
    .progres span
    {
         position: absolute;
         top: 10%;
-        left: 10%;
+        left: 45%;
         transform: translate(-50%,-50%);
         font-size: 1.5em;
         font-weight: 400;
+        margin-left: 15px;
         
     }
 }
@@ -377,7 +384,7 @@ line-height: 29px;
 svg
 {
     height: 200px;
-    width: 200px ;
+    width: 160px ;
 }
 svg circle
 {
@@ -439,6 +446,7 @@ svg .java60:nth-child(2)
     transform: translate(-50%,-50%);
     font-size: 1.5em;
     font-weight: 400;
+    margin-left: 10px;
     
 }
 
