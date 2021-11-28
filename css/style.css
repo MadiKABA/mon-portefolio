@@ -297,6 +297,21 @@ line-height: 29px;
         justify-content: center;
         grid-gap: 20px 15px;
     }
+    .paragraphe-section-a-propos-mon-profil
+    {
+       
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 36px;
+        margin: 3rem 3rem 5rem 1rem;
+        color: #000000;
+    }
+    .section-a-propos-mon-profil
+    {
+        font-size: 36px;
+    }
     .grid-item
     {
         width: 400px;
